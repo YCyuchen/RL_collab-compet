@@ -28,15 +28,6 @@ The task is episodic, and in order to solve the environment, the agents must get
 
 The environment is considered solved, when the average (over 100 episodes) of those **scores** is at least +0.5.
 
-## Start up
-The main code for training and testing the agents is inclueded in `Tennis.ipynb`. Before running the environment, put the file path of Unity environment in `env = UnityEnvironment(file_name="path to Tennis.x86_64")`
-If you haven't installed the environment, select the environment which matched your system and download below.
-- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Linux.zip)
-- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis.app.zip)
-- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86.zip)
-- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P3/Tennis/Tennis_Windows_x86_64.zip)
-
-
 ### Depedency
 - python 3.6
 - [ml-agents](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md) from Unity
